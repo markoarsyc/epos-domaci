@@ -15,10 +15,7 @@ body {
     min-height: 100vh;
 }
 
-footer {
-    margin-top: 70vh;
-    text-align: center;
-}
+/* Korisnicki meni */
 
 a {
     text-decoration: none;
@@ -47,7 +44,14 @@ a {
 
 .meni-opcija:hover {
     background-color: #ffe2d7;
+    cursor: pointer;
 }
+
+.meni-opcija:active {
+    background-color: #ffe2d7;
+}
+
+/* Sadrzaj stranice */
 
 .glavni-sadrzaj {
     border: 0.1rem outset #e69172;
@@ -62,5 +66,12 @@ a {
 }
 
 .opis-stranice p {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 70vh;
     text-align: center;
 }

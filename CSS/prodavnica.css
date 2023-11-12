@@ -6,10 +6,21 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+    background-color: #f8d6c8;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0 10vw;
+    min-height: 100vh;
+}
+
+/* Korisnicki meni */
 
 a {
     text-decoration: none;
     font-size: 1.4rem;
+    color:#49261a;
 }
 
 .meni {
@@ -17,13 +28,25 @@ a {
     flex-direction: row;
     justify-content: space-around;
     margin:0 10%;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #6d3826;
     border-radius: 30px;
+    margin-bottom: 1rem;
+    background-color: #e69172;
 }
 
 .meni-opcija {
     padding: 0.5rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #914a32;
     border-radius: 30px;
     margin:0.07rem;
+    background-color: #ffbfa7;
+}
+
+.meni-opcija:hover {
+    background-color: #ffe2d7;
+    cursor: pointer;
+}
+
+.meni-opcija:active {
+    background-color: #ffe2d7;
 }
