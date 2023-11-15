@@ -60,13 +60,15 @@ a {
 }
 
 .opis-stranice {
+    padding: 0.6rem;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-items: center;   
+    gap:0.4rem;
 }
 
-.opis-stranice p {
-    text-align: center;
+.opis {
+    flex:1;
 }
 
 /* Footer */
