@@ -1,0 +1,25 @@
+.glavna-slika {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.donja-sekcija {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+.slika-i-opis {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;  
+  align-items: center;
+}
+
+p {
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
