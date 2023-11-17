@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f8d6c8;
+    background-color: #FFF0EA;
     height: auto;
     background-attachment: fixed;
     background-size: cover;
@@ -20,7 +20,7 @@ body {
 a {
     text-decoration: none;
     font-size: 1.4rem;
-    color:#49261a;
+    color:#49261A;
 }
 
 .meni {
@@ -28,18 +28,16 @@ a {
     flex-direction: row;
     justify-content: space-around;
     margin:0 10%;
-    border: 0.1rem solid #6d3826;
     border-radius: 30px;
     margin-bottom: 1rem;
-    background-color: #e69172;
+    background-color: #F8D6C8;
 }
 
 .meni-opcija {
     padding: 0.5rem;
-    border: 0.1rem solid #914a32;
     border-radius: 30px;
-    margin:0.07rem;
-    background-color: #ffbfa7;
+    margin: 5px 0;
+    background-color: #FFBFA7;
 }
 
 .meni-opcija:hover {
@@ -49,31 +47,4 @@ a {
 
 .meni-opcija:active {
     background-color: #ffe2d7;
-}
-
-/* Sadrzaj stranice */
-
-.glavni-sadrzaj {
-    border: 0.1rem outset #e69172;
-    background-color: #fff0ea;
-    color:#6d3826;
-}
-
-.opis-stranice {
-    padding: 0.6rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;   
-    gap:0.4rem;
-}
-
-.opis {
-    flex:1;
-}
-
-/* Footer */
-
-footer {
-    margin-top: 70vh;
-    text-align: center;
 }
