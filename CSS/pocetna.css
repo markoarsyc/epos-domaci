@@ -1,0 +1,63 @@
+button {
+    color: #6D3826;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+    border-radius: 2.5rem;
+}
+
+p {
+    font-family: Josefin Sans;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0 5rem;
+    text-align: center;
+}
+
+.glavni-sadrzaj {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin:0 7vw;
+}
+
+.sekcija {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sekcija2-desno {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.sekcija3-levo {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.poslednja-sekcija {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+}
+
+footer {
+    margin-top:2.5rem;
+    text-align: center;
+}
+
+
