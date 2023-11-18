@@ -67,4 +67,29 @@ footer {
     text-align: center;
 }
 
+@media all and (max-width: 700px) {
+    p {
+        margin:0;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+        margin: 0.5rem;
+    }
+    .glavni-sadrzaj {
+        display: block;
+    }
+    .sekcija {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sekcija2 .sekcija2.desno {
+        order:1;
+    }
 
+    .sekcija2 img {
+        order:2;
+    }
+}
