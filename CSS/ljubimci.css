@@ -16,6 +16,11 @@ button {
     background: #FFBFA7;
 }
 
+button:hover {
+    background-color: #ffe2d7;
+    cursor: pointer;
+}
+
 .glavna-slika {
     display: flex;
     justify-content: center;
@@ -34,4 +39,15 @@ button {
     flex-direction: column;
     gap:2rem;
     align-items: center;
+    position: relative;
+}
+
+.opis-ljubimca {
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 0.2rem;
+    background-color: #F8D6C8;
+    position: absolute;
+    margin-top: 50%;
+    display: none;
 }
