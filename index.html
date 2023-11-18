@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pawgram</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="Script/script.js"></script>
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
     <link rel="stylesheet" href="CSS/pocetna.css">
     <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
@@ -52,7 +54,7 @@
                         profile
                         ljubimaca</b> spremnih za usvajanje.
                 </p>
-                <button>
+                <button onclick="ljubimci()">
                     Ljubimci
                 </button>
             </div>
@@ -63,7 +65,7 @@
                     Pored ovoga, nudimo i <b>online prodavnicu</b> gde možete kupiti <b>hranu, opremu i mnogo više</b> za vašeg
                     četvoronožnog prijatelja!
                 </p>
-                <button>
+                <button onclick="prodavnica()">
                     Prodavnica
                 </button>
             </div>
@@ -73,7 +75,7 @@
             <p>
                 Prijavite se preko sledeće forme  kako biste mogli da usvojite ljubimca ili pristupite sajtu
             </p>
-            <button>
+            <button onclick="registracija()">
                 Registracija
             </button>
         </div>

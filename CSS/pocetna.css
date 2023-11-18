@@ -12,6 +12,11 @@ button {
     background: #FFBFA7;
 }
 
+button:hover {
+    background-color: #ffe2d7;
+    cursor: pointer;
+}
+
 p {
     font-family: Josefin Sans;
     font-size: 1.3rem;
