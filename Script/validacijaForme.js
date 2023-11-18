@@ -1,5 +1,4 @@
 let forma = document.getElementsByTagName("form");
-console.log(forma);
 forma[0].addEventListener('submit', ()=> {
     let imePrezime = document.getElementById("IME").value;
     let telefon = document.getElementById("TELEFON").value;
