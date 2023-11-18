@@ -63,3 +63,10 @@ function mila() {
     let slikaDona = document.querySelector("#DONA-SLIKA");
     slikaDona.style.display = "block";
 }
+
+//Prodavnica
+
+let opcije = document.querySelectorAll(".slika-i-opis p")
+for(let i = 0; i < opcije.length; i++) {
+    opcije[i].addEventListener('click', ()=>alert("Stranica u pripremi"));
+}
