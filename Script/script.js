@@ -14,7 +14,6 @@ function registracija() {
 //Ljubmici
 
 var sirinaProzora = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-console.log(sirinaProzora);
 
 function dona() {
     if (sirinaProzora >= 700) {
