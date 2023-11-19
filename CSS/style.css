@@ -54,6 +54,10 @@ a {
     display: none;
 }
 
+.vertikalni-meni {
+    display:none;
+}
+
 
 @media all and (max-width:750px) {
     .meni {
@@ -74,4 +78,12 @@ a {
         width: 30px;
         height: 30px;
     }
+
+    .vertikalni-meni {
+        display: block;
+    }
+    .vertikalni-meni a {
+        text-align: center;
+    }
+
 }
